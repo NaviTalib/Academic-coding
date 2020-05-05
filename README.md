@@ -1,2 +1,2 @@
 # TheBeginning
-This one is my , the way when i starts coding.
+This one is , the way when i starts coding.
