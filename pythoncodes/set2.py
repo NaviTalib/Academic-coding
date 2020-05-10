@@ -1,0 +1,6 @@
+s=set()
+s.add("aman")
+s.add("bharat")
+s.add("deepak")
+s.add("deepak")
+print(s)

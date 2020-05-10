@@ -1,0 +1,8 @@
+s=set()
+s.add(8)
+s.add(1)
+s.add(21)
+s.add(3)
+s.add(1)
+s.add(4)
+print(s)
