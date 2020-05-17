@@ -1,0 +1,19 @@
+{% extends "layout.html" %}
+ 
+{% block heading %}
+TO NOTE APPLICATION.
+{% endblock %}
+
+{% block body %}
+
+<ul>
+    {% for note in notes %}
+    <li>{{note}}</li>
+    {% endfor %}
+</ul>
+
+<form action="{{url_for('notex')}}" method="POST">
+<input type="text" name="note" placeholder="Enter note here.">
+<button>Submit</button>
+</form>
+{% endblock %}
