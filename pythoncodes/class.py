@@ -5,3 +5,4 @@ class Point:
 p=Point(6,7)
 print(p.x) 
 print(p.y)   
+print(p.x+p.y)
